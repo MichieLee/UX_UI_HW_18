@@ -103,19 +103,10 @@ footer ul li {
   padding: 25px;
   margin-inline: auto;
 }
-.skill1 {
+.skill{
   margin: auto;
   display: block;
 }
-
-.skill2 {
-  margin: auto;
-  display: block;
-}
-
-.skill3 {
-  margin: auto;
-  display: block;
 
 h3 {
   text-align: center;
