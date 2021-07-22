@@ -132,4 +132,26 @@ h3 {
 	margin: 50px 10px 0 10px;
 	padding: 5px;
 	height: 400px;
+  display: grid;
+  grid-template-rows: 10% 90%;
+  grid-template-columns: 40% 60%;
+}
+
+.card1 h1 {
+  grid-area: 1 / 2;
+  align-self: center;
+}
+
+.card1 img {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  object-fit: cover;
+  width: 90%;
+  height: 90%;
+  justify-self: center;
+  align-self: center;
+}
+
+.card1 p {
+  grid-area: 2 / 2;
 }
