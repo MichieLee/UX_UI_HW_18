@@ -106,12 +106,12 @@ footer ul li {
 
 .skill2 {
   margin: auto;
-  display: block;
+  display: inline-block;
 }
 
 .skill3 {
   margin: auto;
-  display: block;
+  display: inline-block;
 }
 
 h3 {
