@@ -73,6 +73,7 @@ p {
 .container {
   padding: 2px 16px;
 }
+
 button {
   padding: 9px;
   background-color: #282828;
@@ -175,11 +176,12 @@ h3 {
   font-size: 16px;
 }
 .card1 button {
-    grid-area: 2/ 1;
+    grid-area: 1 / 2;
     padding: 9px;
     background-color: #282828;
     color: #FFCAF8;
     font-size: 14px;
     font-family: 'raleway', sans-serif;
     border-radius: 13px;
+    width: 150px
 }
