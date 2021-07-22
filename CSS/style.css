@@ -174,8 +174,8 @@ h3 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
 }
-button1 {
-    grid-area: 2 / 2;
+.card1 button {
+    grid-area: 2/ 1;
     padding: 9px;
     background-color: #282828;
     color: #FFCAF8;
