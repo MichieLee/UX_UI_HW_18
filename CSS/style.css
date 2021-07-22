@@ -72,7 +72,8 @@ button {
   padding: 15px;
   background-color: #282828;
   color: #FFCAF8;
-  font-size: 15px;
+  font-size: 18px;
+  font-family: 'crushed', cursive;
   border-radius: 4px;
 }
 
@@ -96,8 +97,8 @@ footer ul li {
 .heading {
   text-align: center;
   padding: 15px 5px;
-  font-size: 30px;
-  font-family: 'calistoga', cursive;
+  font-size: 34px;
+  font-family: 'crushed', cursive;
 }
 
 /* My UX Skills Section */
@@ -117,6 +118,7 @@ footer ul li {
 
 h3 {
   text-align: center;
+  font-family: 'raleway', sans-serif;
 }
 
 /* My Work Section */
@@ -147,6 +149,7 @@ h3 {
 .card1 h1 {
   grid-area: 1 / 2;
   align-self: center;
+  font-family: 'raleway', sans-serif;
 }
 
 .card1 img {
@@ -161,4 +164,5 @@ h3 {
 
 .card1 p {
   grid-area: 2 / 2;
+  font-family: 'Josefin Sans', sans-serif
 }
