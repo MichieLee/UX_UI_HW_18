@@ -39,7 +39,7 @@ li {
 	display: inline-block;
 	color: #FFCAF8;
 	font-size: 30px;
-  font-family: 'crushed', cursive
+  font-family: 'crushed', cursive;
 }
 
 .heroImg {
@@ -54,8 +54,13 @@ li {
   text-align: center;
 }
 
+.content h1 {
+  font-family: 'raleway', sans-serif;
+}
+
 p {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
 }
 
 .card {
@@ -66,15 +71,15 @@ p {
 }
 
 .container {
-  padding: 2px 16px
+  padding: 2px 16px;
 }
 button {
-  padding: 15px;
+  padding: 9px;
   background-color: #282828;
   color: #FFCAF8;
-  font-size: 18px;
-  font-family: 'crushed', cursive;
-  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'raleway', sans-serif;
+  border-radius: 13px;
 }
 
 footer {
@@ -87,7 +92,7 @@ footer ul {
 	vertical-align: top;
 	padding-left: 10px;
 	color: #FFCAF8;
-  font-family: 'crushed', cursive
+  font-family: 'crushed', cursive;
 }
 
 footer ul li {
@@ -119,6 +124,7 @@ footer ul li {
 h3 {
   text-align: center;
   font-family: 'raleway', sans-serif;
+  font-size: 22px;
 }
 
 /* My Work Section */
@@ -150,6 +156,7 @@ h3 {
   grid-area: 1 / 2;
   align-self: center;
   font-family: 'raleway', sans-serif;
+  font-size: 22px;
 }
 
 .card1 img {
@@ -164,5 +171,6 @@ h3 {
 
 .card1 p {
   grid-area: 2 / 2;
-  font-family: 'Josefin Sans', sans-serif
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
 }
