@@ -1,6 +1,5 @@
 body {
   margin: 0;
-	height: 3300px; /* Used to enable scrolling */
 	background: linear-gradient(317deg, #9CE8EE 0%, #6EB5FF 51%, #FFCAF8 85%);
   }
 
@@ -13,10 +12,16 @@ body {
 	margin-top: 40px;
 	width: 100%;
 }
+
 .logo {
   padding: 10px;
   width: 150px;
 }
+
+.hamburger-button {
+  display: none;
+}
+
 ul {
 	display: flex;
 	justify-content: space-around;
@@ -69,6 +74,7 @@ p {
   background: rgba(255,255,255,.42);
   border: 1px solid rgba(203,213,219,0.3);
   border-radius: 12px;
+  margin: 50px 10px 0 10px;
 }
 
 button {
@@ -107,7 +113,7 @@ footer ul li {
 /* My UX Skills Section */
 .flexContainer {
   display: flex;
-  padding: 60px 30px;
+  padding: 0px 30px 60px 30px;
 }
 .flexContainer div {
   width: 25%;
@@ -132,10 +138,6 @@ h3 {
   background: rgba(255,255,255,.2);
 }
 
-.column {
-	width: calc(100%);
-}
-
 .card1 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   background: rgba(255,255,255,.42);
@@ -150,7 +152,7 @@ h3 {
   grid-template-columns: 40% 60%;
 }
 
-.card1 h1 {
+.card1 h4 {
   grid-area: 1 / 2;
   align-self: center;
   font-family: 'raleway', sans-serif;
@@ -158,13 +160,12 @@ h3 {
 }
 
 .card1 img {
-  grid-column: 1;
-  grid-row: 1 / -1;
-  object-fit: cover;
-  width: 90%;
-  height: 90%;
-  justify-self: center;
-  align-self: center;
+  grid-area: 1 / 1 / span 2 / span 1;
+	object-fit: cover;
+	width: 90%;
+	height: 90%;
+	justify-self: center;
+	align-self: center;
 }
 
 .card1 p {
@@ -172,19 +173,65 @@ h3 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
 }
-.card1 button {
-    grid-area: 1 / 2;
-    padding: 9px;
-    background-color: #282828;
-    color: #FFCAF8;
-    font-size: 14px;
-    font-family: 'raleway', sans-serif;
-    border-radius: 13px;
-    width: 150px
-}
 
 @media only screen and (max-width: 600px) {
-  body {
-    background: lightblue;
-  }
+  .left-nav-list ul, .right-nav-list ul {
+   display: none;
+ }
+
+ ul.hamburger {
+   display: flex;
+   position: relative;
+   flex-direction: column;
+   align-items: flex-end;
+ }
+
+ .hamburger-button {
+   display: inline;
+   position: relative;
+   z-index: 2;
+ }
+
+ .hamburger-button + li {
+   padding: 0;
+ }
+
+ .hamburger-button:focus {
+   content: url("close.png");
+ }
+
+ li.hamburger-button:focus + li ul.hamburger-menu {
+   display: flex;
+   flex-direction: column;
+   background-color: #282828;
+   position: absolute;
+   right: 0px;
+   align-self: center;
+   z-index: 1;
+ }
+
+ .flexContainer {
+   flex-direction: column;
+ }
+
+ .flexContainer .card {
+   width: calc(100% - 50px);
+ }
+
+ .card1 {
+   grid-template-rows: 10% 30% 60%;
+   grid-template-columns: 100%;
+ }
+
+ .card1 h4 {
+   grid-area: 1;
+ }
+
+ .card1 img {
+   grid-area: 2;
+ }
+
+ .card1 p {
+   grid-area: 3;
+ }
 }
