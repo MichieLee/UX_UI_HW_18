@@ -186,3 +186,13 @@ h3 {
     border-radius: 13px;
     width: 150px
 }
+
+@media only screen and (max-width:600) {
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .flexContainer div {
+    width: 100%;
+  }
+}
