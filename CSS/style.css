@@ -18,12 +18,8 @@ body {
   width: 150px;
 }
 
-.hamburger-button {
-  display: none;
-}
-
-.hamburger-menu {
-  display: none;
+.hamburger {
+	display: none;
 }
 
 ul {
