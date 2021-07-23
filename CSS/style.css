@@ -1,6 +1,6 @@
 body {
   margin: 0;
-	height: 3227px; /* Used to enable scrolling */
+	height: 3230px; /* Used to enable scrolling */
 	background: linear-gradient(317deg, #9CE8EE 0%, #6EB5FF 51%, #FFCAF8 85%);
   }
 
@@ -56,12 +56,12 @@ li {
 
 .content h1 {
   font-family: 'raleway', sans-serif;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 p {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .card {
@@ -104,7 +104,7 @@ footer ul li {
 .heading {
   text-align: center;
   padding: 15px 5px;
-  font-size: 34px;
+  font-size: 42px;
   font-family: 'crushed', cursive;
 }
 
@@ -126,7 +126,7 @@ footer ul li {
 h3 {
   text-align: center;
   font-family: 'raleway', sans-serif;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 /* My Work Section */
@@ -158,7 +158,7 @@ h3 {
   grid-area: 1 / 2;
   align-self: center;
   font-family: 'raleway', sans-serif;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 .card1 img {
@@ -174,7 +174,7 @@ h3 {
 .card1 p {
   grid-area: 2 / 2;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 .card1 button {
     grid-area: 1 / 2;
@@ -185,14 +185,4 @@ h3 {
     font-family: 'raleway', sans-serif;
     border-radius: 13px;
     width: 150px
-}
-
-@media only screen and (max-width:600) {
-  .flexContainer {
-    flex-direction: column;
-  }
-
-  .flexContainer div {
-    width: 100%;
-  }
 }
